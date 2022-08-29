@@ -1,2 +1,3 @@
-# sudokuSolver
-A program for solving any sudoku puzzle using recursion
+# Sudoku Solver
+
+This program uses recursion to solve any Sudoku puzzle by brute force.  The puzzle starts at the first empty cell and tries all possible numbers 1-9.  If a number is valid, it moves on to the next cell.  If the program hits a dead end (no valid numbers can be entered in a cell), it will backtrack and try again with the next number.
