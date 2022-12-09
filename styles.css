@@ -1,0 +1,71 @@
+/* Main header */
+#main-header {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Table formatting */
+td {
+  border: 1px solid black;
+}
+
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.bold-row > td {
+  border-bottom: 3px solid black;
+}
+
+td:nth-child(3n) {
+  border-right: 3px solid black;
+}
+
+.table-input {
+  border: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 26px;
+  max-length: 1;
+}
+
+.highlighted {
+  background-color: lightblue;
+}
+
+/* Buttons */
+#button-group {
+  display: flex;
+  justify-content: center;
+}
+
+#button-group > button {
+  margin: 10px 5px;
+}
+
+#vis-options {
+  width: 200px;
+  margin: auto;
+  padding: 10px 20px;
+  border: 1px lightgray solid;
+}
+
+/* Description */
+#description {
+  margin: 0 15%;
+  text-align: center;
+}
+
+#description > h3 {
+  color: darkgray;
+}
+
+/* Error message */
+#error-msg {
+  text-align: center;
+  color: red;
+}
+
